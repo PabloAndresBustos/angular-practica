@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { Product } from '../products';
-import { style } from '@angular/animations';
+import { Product } from '../products'; /* Esta es mi interface */
 
 @Component({
   selector: 'app-lista',
@@ -8,7 +7,8 @@ import { style } from '@angular/animations';
   styleUrls: ['./lista.component.scss']
 })
 export class ListaComponent {
-  
+
+  /* Lista de productos para mostrar */
   productos: Product[] = [
     {nombres: 'CPU AMD RYZEN 5 4600G 4.2G', costos: '$76.199'},
     {nombres: 'KINGSTON FURY BEAST DDR5 16GB', costos: '$78.990'},
@@ -22,6 +22,7 @@ export class ListaComponent {
     {nombres: 'LOGITECH G G502X', costos: '$52.990'},
   ];
 
+  /* Variable que nos modifica la visibilidad de la lista */
   hideShow:boolean = true;
 
 }
