@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+    margin-left: 5rem;
+}
+
+.lista{
+    margin-top: 2rem;
+    border-radius: 6px;
+    width: 500px;
+}
+
+.titulos{
+    font-size: 27px;
+}
+
+.lista .titulos td{
+    height: 30px;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 0 5rem 0 5rem;
+}
+
+.lista .contenido{
+    text-align: center;
+}
+
+.lista .contenido td{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+}
