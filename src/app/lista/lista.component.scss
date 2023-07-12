@@ -17,11 +17,14 @@ button{
 
 .titulos{
     font-size: 27px;
+    background: rgb(12, 107, 170);
+    color: white;
+    font-weight: bold;
 }
 
 .lista .titulos td{
     height: 30px;
-    border: 1px solid red;
+    border: 1px solid black;
     border-radius: 5px;
     padding: 0 5rem 0 5rem;
 }
